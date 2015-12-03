@@ -43,7 +43,8 @@ bool Oncoming::init()
 
 	auto winSize = Director::getInstance()->getVisibleSize();
 
-	background = (Sprite*)rootNode->getChildByName("Background");
+	background1 = (Sprite*)rootNode->getChildByName("Background1");
+	background2 = (Sprite*)rootNode->getChildByName("Background2");
 
 	auto touchListener = EventListenerTouchOneByOne::create();
 
@@ -60,7 +61,7 @@ bool Oncoming::init()
 
 	GameManager::sharedGameManager()->isGameLive = false;
 
-	speed = 300.0f;
+	speed = 500.0f;
 
     return true;
 }
@@ -70,8 +71,18 @@ void Oncoming::update(float deltaTime)
 	if (GameManager::sharedGameManager()->isGameLive)
 	{
 		auto  winSize = Director::getInstance()->getVisibleSize();
-		Vec2 currentPos1 = background->getPosition();
-		background->setPosition(currentPos1.x, currentPos1.y - speed*deltaTime);
+		Vec2 currentPos1 = background1->getPosition();
+		Vec2 currentPos2 = background2->getPosition();
+		background1->setPosition(currentPos1.x, currentPos1.y - speed*deltaTime);
+		background2->setPosition(currentPos2.x, currentPos2.y - speed*deltaTime);
+		if (currentPos1.y < 0)
+		{
+			background1->setPosition(currentPos1.x, winSize.height*2);
+		}
+		if (currentPos2.y < 0)
+		{
+			background2->setPosition(currentPos2.x, winSize.height*2);
+		}
 	}
 }
 
