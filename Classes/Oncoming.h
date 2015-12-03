@@ -2,6 +2,7 @@
 #define __ONCOMING_GAME_H__
 
 #include "cocos2d.h"
+#include "ui/CocosGUI.h"
 
 class Oncoming : public cocos2d::Layer
 {
@@ -14,6 +15,14 @@ public:
 
     // implement the "static create()" method manually
     CREATE_FUNC(Oncoming);
+
+	void StartButtonPressed(Ref *sender, cocos2d::ui::Widget::TouchEventType type);
+
+	void StartGame();
+	void EndGame();
+
+private:
+	cocos2d::ui::Button*    startButton;
 };
 
 #endif // __ONCOMING_GAME_H__
