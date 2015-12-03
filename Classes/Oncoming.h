@@ -16,6 +16,11 @@ public:
     // implement the "static create()" method manually
     CREATE_FUNC(Oncoming);
 
+	virtual bool onTouchBegan(cocos2d::Touch*, cocos2d::Event*);
+	virtual void onTouchEnded(cocos2d::Touch*, cocos2d::Event*);
+	virtual void onTouchMoved(cocos2d::Touch*, cocos2d::Event*);
+	virtual void onTouchCancelled(cocos2d::Touch*, cocos2d::Event*);
+
 	void StartButtonPressed(Ref *sender, cocos2d::ui::Widget::TouchEventType type);
 
 	void StartGame();
