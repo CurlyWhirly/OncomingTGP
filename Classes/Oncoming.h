@@ -16,6 +16,8 @@ public:
     // implement the "static create()" method manually
     CREATE_FUNC(Oncoming);
 
+	void update(float);
+
 	virtual bool onTouchBegan(cocos2d::Touch*, cocos2d::Event*);
 	virtual void onTouchEnded(cocos2d::Touch*, cocos2d::Event*);
 	virtual void onTouchMoved(cocos2d::Touch*, cocos2d::Event*);
@@ -27,7 +29,9 @@ public:
 	void EndGame();
 
 private:
+	cocos2d::Sprite*        background;
 	cocos2d::ui::Button*    startButton;
+	float					speed;
 };
 
 #endif // __ONCOMING_GAME_H__

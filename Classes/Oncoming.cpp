@@ -39,13 +39,40 @@ bool Oncoming::init()
 
     addChild(rootNode);
 
+	this->scheduleUpdate();
+
 	auto winSize = Director::getInstance()->getVisibleSize();
+
+	background = (Sprite*)rootNode->getChildByName("Background");
+
+	auto touchListener = EventListenerTouchOneByOne::create();
+
+	touchListener->onTouchBegan = CC_CALLBACK_2(Oncoming::onTouchBegan, this);
+	touchListener->onTouchEnded = CC_CALLBACK_2(Oncoming::onTouchEnded, this);
+	touchListener->onTouchMoved = CC_CALLBACK_2(Oncoming::onTouchMoved, this);
+	touchListener->onTouchCancelled = CC_CALLBACK_2(Oncoming::onTouchCancelled, this);
+
+	_eventDispatcher->addEventListenerWithSceneGraphPriority(touchListener, this);
 
 	startButton = static_cast<ui::Button*>(rootNode->getChildByName("startButton"));
 	startButton->addTouchEventListener(CC_CALLBACK_2(Oncoming::StartButtonPressed, this));
 	startButton->setPosition(Vec2(winSize.width*0.5f, winSize.height*0.5f));
 
+	GameManager::sharedGameManager()->isGameLive = false;
+
+	speed = 300.0f;
+
     return true;
+}
+
+void Oncoming::update(float deltaTime)
+{
+	if (GameManager::sharedGameManager()->isGameLive)
+	{
+		auto  winSize = Director::getInstance()->getVisibleSize();
+		Vec2 currentPos1 = background->getPosition();
+		background->setPosition(currentPos1.x, currentPos1.y - speed*deltaTime);
+	}
 }
 
 void Oncoming::StartButtonPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
