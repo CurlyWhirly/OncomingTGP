@@ -5,9 +5,12 @@
 using namespace cocos2d;
 
 // Constructor method
-Player::Player()
+Player::Player(Node* rootNode)
 {
+	imgPlayer = (Sprite*)rootNode->getChildByName("Player");
+	imgPlayer->setPosition(Vec2(100.0f, 144.0f));
 
+	// Create 3 buttons
 }
 
 // Deconstructor method
@@ -16,18 +19,11 @@ Player::~Player()
 
 }
 
-bool Player::init()
-{
-	return true;
-}
 
-Player* Player::Create()
-{
-	Player* myNode = new Player();
-	return myNode;
-}
 
 void Player::Update(float deltaTime)
 {
 
 }
+
+// Create 3 methods for button press

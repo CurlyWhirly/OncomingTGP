@@ -39,7 +39,7 @@
             <FileData Type="Normal" Path="Background.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Sprite_3" ActionTag="-1509314636" Tag="5" RotationSkewX="270.0000" RotationSkewY="270.0000" IconVisible="False" LeftMargin="257.6440" RightMargin="253.3560" TopMargin="783.3229" BottomMargin="112.6771" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Player" ActionTag="-1509314636" Tag="5" RotationSkewX="270.0000" RotationSkewY="270.0000" IconVisible="False" LeftMargin="257.6440" RightMargin="253.3560" TopMargin="783.3229" BottomMargin="112.6771" ctype="SpriteObjectData">
             <Size X="129.0000" Y="64.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="322.1440" Y="144.6771" />

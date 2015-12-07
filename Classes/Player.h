@@ -4,19 +4,21 @@
 #include "cocos2d.h"
 #include "ui/CocosGUI.h"
 
-class Player : public cocos2d::Node
+using namespace cocos2d;
+
+class Player : public cocos2d::Sprite
 {
 public:
-	Player();
+	Player(Node* );
 	~Player();
 
-	virtual bool init() override;
-	static Player* Create();
-
 	void Update(float);
-
+	Sprite* imgPlayer;
+	/*cocos2d::ui::Button*    startButton; LEFT
+	cocos2d::ui::Button*    startButton; CENTRE
+	cocos2d::ui::Button*    startButton; RIGHT */
 private:
-	cocos2d::Sprite* player;
+	
 };
 
 #endif

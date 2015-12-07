@@ -3,6 +3,7 @@
 
 #include "cocos2d.h"
 #include "ui/CocosGUI.h"
+#include "Player.h"
 
 class Oncoming : public cocos2d::Layer
 {
@@ -31,6 +32,7 @@ public:
 private:
 	cocos2d::Sprite*        background1;
 	cocos2d::Sprite*        background2;
+	Player*					playerCar;
 	cocos2d::ui::Button*    startButton;
 	float					speed;
 };
