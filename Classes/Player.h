@@ -11,7 +11,7 @@ public:
 	~Player();
 
 	virtual bool init() override;
-	static Player* create();
+	static Player* Create();
 
 	void Update(float);
 
