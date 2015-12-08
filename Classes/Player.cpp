@@ -10,6 +10,9 @@ Player::Player(Node* rootNode)
 	// Create player
 	imgPlayer = (Sprite*)rootNode->getChildByName("Player");
 
+	//set starting position
+	imgPlayer->setPosition(322.14, 144.68);
+
 	// Create 3 buttons
 	leftButton   = static_cast<ui::Button*>(rootNode->getChildByName("leftButton"));
 	centreButton = static_cast<ui::Button*>(rootNode->getChildByName("centreButton"));
@@ -34,7 +37,9 @@ void Player::btnLeftPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType ty
 
 	if (type == cocos2d::ui::Widget::TouchEventType::ENDED)
 	{
-		
+		//auto moveTo = MoveTo::create(0.5, Vec2(157.55, 144.68)); // Take a second to move off screen.
+		//imgPlayer->runAction(moveTo);
+		imgPlayer->setPosition(157.55, 144.68);
 	}
 }
 
@@ -45,6 +50,7 @@ void Player::btnCentrePressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType 
 
 	if (type == cocos2d::ui::Widget::TouchEventType::ENDED)
 	{
+		imgPlayer->setPosition(322.14, 144.68);
 
 	}
 }
@@ -56,6 +62,7 @@ void Player::btnRightPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType t
 
 	if (type == cocos2d::ui::Widget::TouchEventType::ENDED)
 	{
+		imgPlayer->setPosition(486.74, 144.68);
 
 	}
 }
