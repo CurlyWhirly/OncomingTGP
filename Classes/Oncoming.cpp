@@ -85,7 +85,13 @@ void Oncoming::update(float deltaTime)
 		{
 			background2->setPosition(currentPos2.x, winSize.height*2);
 		}
+
+		// Update the player
+		playerCar->Update(deltaTime);
 	}
+
+	
+
 }
 
 void Oncoming::StartButtonPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
