@@ -16,9 +16,9 @@ Player::Player(Node* rootNode)
 	rightButton  = static_cast<ui::Button*>(rootNode->getChildByName("rightButton"));
 
 	// Add event listeners for buttons
-	leftButton->addTouchEventListener(CC_CALLBACK_2(Player::LeftButtonPressed, this));
-	centreButton->addTouchEventListener(CC_CALLBACK_2(Player::CentreButtonPressed, this));
-	rightButton->addTouchEventListener(CC_CALLBACK_2(Player::RightButtonPressed, this));
+	leftButton->addTouchEventListener(CC_CALLBACK_2(Player::btnLeftPressed, this));
+	centreButton->addTouchEventListener(CC_CALLBACK_2(Player::btnCentrePressed, this));
+	rightButton->addTouchEventListener(CC_CALLBACK_2(Player::btnRightPressed, this));
 }
 
 void Player::Update(float deltaTime)
@@ -27,7 +27,8 @@ void Player::Update(float deltaTime)
 }
 
 // Set what each button will do when pressed
-void Player::LeftButtonPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
+// Left button
+void Player::btnLeftPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
 {
 	CCLOG("In touch! %d", type);
 
@@ -37,7 +38,8 @@ void Player::LeftButtonPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType
 	}
 }
 
-void Player::CentreButtonPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
+// Centre button
+void Player::btnCentrePressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
 {
 	CCLOG("In touch! %d", type);
 
@@ -47,7 +49,8 @@ void Player::CentreButtonPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventTy
 	}
 }
 
-void Player::RightButtonPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
+// Right button
+void Player::btnRightPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
 {
 	CCLOG("In touch! %d", type);
 

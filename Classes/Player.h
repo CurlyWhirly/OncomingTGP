@@ -14,9 +14,9 @@ public:
 
 	void Update(float);
 
-	void LeftButtonPressed  (Ref *sender, cocos2d::ui::Widget::TouchEventType type);
-	void CentreButtonPressed(Ref *sender, cocos2d::ui::Widget::TouchEventType type);
-	void RightButtonPressed (Ref *sender, cocos2d::ui::Widget::TouchEventType type);
+	void btnLeftPressed  (Ref *sender, cocos2d::ui::Widget::TouchEventType type);
+	void btnCentrePressed(Ref *sender, cocos2d::ui::Widget::TouchEventType type);
+	void btnRightPressed (Ref *sender, cocos2d::ui::Widget::TouchEventType type);
 
 private:
 	Sprite*					imgPlayer;	  // Player image

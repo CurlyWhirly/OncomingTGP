@@ -32,7 +32,10 @@ public:
 private:
 	cocos2d::Sprite*        background1;
 	cocos2d::Sprite*        background2;
+
+	// playerCar is an instance of the Player class
 	Player*					playerCar;
+
 	cocos2d::ui::Button*    startButton;
 	float					speed;
 };
