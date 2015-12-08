@@ -30,6 +30,7 @@ void Player::Update(float deltaTime)
 }
 
 // Set what each button will do when pressed
+
 // Left button
 void Player::btnLeftPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)
 {
@@ -37,9 +38,8 @@ void Player::btnLeftPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType ty
 
 	if (type == cocos2d::ui::Widget::TouchEventType::ENDED)
 	{
-		//auto moveTo = MoveTo::create(0.5, Vec2(157.55, 144.68)); // Take a second to move off screen.
-		//imgPlayer->runAction(moveTo);
-		imgPlayer->setPosition(157.55, 144.68);
+		auto moveTo = MoveTo::create(0.2, Vec2(157.55, 144.68));
+		imgPlayer->runAction(moveTo);
 	}
 }
 
@@ -50,8 +50,8 @@ void Player::btnCentrePressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType 
 
 	if (type == cocos2d::ui::Widget::TouchEventType::ENDED)
 	{
-		imgPlayer->setPosition(322.14, 144.68);
-
+		auto moveTo = MoveTo::create(0.2, Vec2(322.14, 144.68));
+		imgPlayer->runAction(moveTo);
 	}
 }
 
@@ -62,8 +62,8 @@ void Player::btnRightPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType t
 
 	if (type == cocos2d::ui::Widget::TouchEventType::ENDED)
 	{
-		imgPlayer->setPosition(486.74, 144.68);
-
+		auto moveTo = MoveTo::create(0.2, Vec2(486.74, 144.68));
+		imgPlayer->runAction(moveTo);
 	}
 }
 

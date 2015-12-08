@@ -39,13 +39,13 @@
             <FileData Type="Normal" Path="Background.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="leftButton" ActionTag="1397770" Alpha="0" Tag="7" IconVisible="False" LeftMargin="133.0770" RightMargin="460.9230" TopMargin="727.3505" BottomMargin="196.6496" TouchEnable="True" FontSize="14" ButtonText="Left" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="leftButton" ActionTag="1397770" Alpha="0" Tag="7" IconVisible="False" LeftMargin="133.0770" RightMargin="460.9230" TopMargin="736.6672" BottomMargin="187.3328" TouchEnable="True" FontSize="14" ButtonText="Left" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="46.0000" Y="36.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="156.0770" Y="214.6496" />
+            <Position X="156.0770" Y="205.3328" />
             <Scale ScaleX="3.1049" ScaleY="11.0070" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.2439" Y="0.2236" />
+            <PrePosition X="0.2439" Y="0.2139" />
             <PreSize X="0.0000" Y="0.0000" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
