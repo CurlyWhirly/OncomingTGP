@@ -9,16 +9,21 @@ using namespace cocos2d;
 class Player : public cocos2d::Sprite
 {
 public:
-	Player(Node* );
-	~Player();
+	Sprite*	imgPlayer; // Player image
+
+	Player(Node*); // Constructor
+	~Player();     // Destructor
 
 	void Update(float);
-	Sprite* imgPlayer;
-	/*cocos2d::ui::Button*    startButton; LEFT
-	cocos2d::ui::Button*    startButton; CENTRE
-	cocos2d::ui::Button*    startButton; RIGHT */
+
+	void LeftButton();
+	void CentreButton();
+	void RightButton();
+
 private:
-	
+	cocos2d::ui::Button*    leftButton;   // Left
+	cocos2d::ui::Button*    centreButton; // Centre
+	cocos2d::ui::Button*    rightButton;  // Right
 };
 
 #endif

@@ -8,9 +8,11 @@ using namespace cocos2d;
 Player::Player(Node* rootNode)
 {
 	imgPlayer = (Sprite*)rootNode->getChildByName("Player");
-	imgPlayer->setPosition(Vec2(100.0f, 144.0f));
 
 	// Create 3 buttons
+	leftButton   = static_cast<ui::Button*>(rootNode->getChildByName("leftButton"));
+	centreButton = static_cast<ui::Button*>(rootNode->getChildByName("centreButton"));
+	rightButton  = static_cast<ui::Button*>(rootNode->getChildByName("rightButton"));
 }
 
 // Deconstructor method

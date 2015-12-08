@@ -47,7 +47,6 @@ bool Oncoming::init()
 	background2 = (Sprite*)rootNode->getChildByName("Background2");
 	
 	playerCar = new Player(rootNode);
-	playerCar->imgPlayer->setColor(Color3B(255.0f, 0.0f, 0.0f));
 
 	auto touchListener = EventListenerTouchOneByOne::create();
 
