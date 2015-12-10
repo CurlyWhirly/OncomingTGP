@@ -2,6 +2,7 @@
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
 #include "Enemy.h"
+#include "Player.h"
 #include "GameManager.h"
 #include "stdio.h"
 
@@ -88,13 +89,15 @@ void Oncoming::update(float deltaTime)
 		{
 			background2->setPosition(currentPos2.x, winSize.height*2);
 		}
-		score->setString(StringUtils::format("%d", GameManager::sharedGameManager()->GetScore()));
 		// Update the player
 		playerCar->Update(deltaTime);
+
+		if (enemies->hasCollidedWithPlayer(playerCar->getBoundingBox()))
+		{
+			this->EndGame();
+		}
 	}
-
-	
-
+	score->setString(StringUtils::format("%d", GameManager::sharedGameManager()->GetScore()));
 }
 
 void Oncoming::StartButtonPressed(Ref *pSender, cocos2d::ui::Widget::TouchEventType type)

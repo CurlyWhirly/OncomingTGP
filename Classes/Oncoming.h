@@ -3,8 +3,8 @@
 
 #include "cocos2d.h"
 #include "ui/CocosGUI.h"
-#include "Player.h"
 
+class Player;
 class Enemy;
 
 class Oncoming : public cocos2d::Layer
@@ -35,11 +35,10 @@ private:
 	cocos2d::Sprite*        background1;
 	cocos2d::Sprite*        background2;
 	cocos2d::ui::Text*		score;
+	cocos2d::ui::Button*    startButton;
 	// playerCar is an instance of the Player class
 	Player*					playerCar;
 	Enemy*					enemies;
-
-	cocos2d::ui::Button*    startButton;
 	float					speed;
 };
 
