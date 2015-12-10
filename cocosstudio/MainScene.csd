@@ -28,13 +28,13 @@
             <FileData Type="Normal" Path="Background.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Background2" ActionTag="-833039192" Tag="4" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="-9.7192" RightMargin="-416.2808" TopMargin="-2519.5703" BottomMargin="2679.5703" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Background2" ActionTag="-833039192" Tag="4" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="-7.7192" RightMargin="-418.2808" TopMargin="-2519.5693" BottomMargin="2679.5693" ctype="SpriteObjectData">
             <Size X="1066.0000" Y="800.0000" />
             <AnchorPoint />
-            <Position X="-9.7192" Y="2679.5703" />
+            <Position X="-7.7192" Y="2679.5693" />
             <Scale ScaleX="1.5901" ScaleY="0.8234" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="-0.0152" Y="2.7912" />
+            <PrePosition X="-0.0121" Y="2.7912" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="Background.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
@@ -109,6 +109,72 @@
             <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="enemyCar2" ActionTag="1444549380" Tag="12" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="253.2200" RightMargin="-213.2200" TopMargin="62.8392" BottomMargin="600.1608" ctype="SpriteObjectData">
+            <Size X="600.0000" Y="297.0000" />
+            <AnchorPoint ScaleX="0.3970" ScaleY="0.5252" />
+            <Position X="491.4211" Y="756.1427" />
+            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7678" Y="0.7876" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="enemy.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="enemyCar1" ActionTag="-1006187122" Tag="13" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="-142.8612" RightMargin="182.8612" TopMargin="68.4006" BottomMargin="594.5994" ctype="SpriteObjectData">
+            <Size X="600.0000" Y="297.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="157.1388" Y="743.0994" />
+            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2455" Y="0.7741" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="enemy.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="enemyCar4" ActionTag="-1665061476" Tag="14" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="27.2036" RightMargin="12.7964" TopMargin="-616.3459" BottomMargin="1279.3459" ctype="SpriteObjectData">
+            <Size X="600.0000" Y="297.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="327.2036" Y="1427.8459" />
+            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5113" Y="1.4873" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="enemy.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="enemyCar3" ActionTag="-1565018313" Tag="15" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="191.2278" RightMargin="-151.2278" TopMargin="-611.4694" BottomMargin="1274.4694" ctype="SpriteObjectData">
+            <Size X="600.0000" Y="297.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="491.2278" Y="1422.9694" />
+            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7675" Y="1.4823" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="enemy.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="enemyCar6" ActionTag="-1246118860" Tag="16" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="35.1443" RightMargin="4.8557" TopMargin="-1351.2559" BottomMargin="2014.2559" ctype="SpriteObjectData">
+            <Size X="600.0000" Y="297.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="335.1443" Y="2162.7559" />
+            <Scale ScaleX="0.2602" ScaleY="0.4022" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5237" Y="2.2529" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="enemy.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="enemyCar5" ActionTag="-180184269" Tag="17" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="-148.1570" RightMargin="188.1570" TopMargin="-1353.3232" BottomMargin="2016.3232" ctype="SpriteObjectData">
+            <Size X="600.0000" Y="297.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="151.8430" Y="2164.8232" />
+            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2373" Y="2.2550" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="enemy.png" Plist="" />
+            <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

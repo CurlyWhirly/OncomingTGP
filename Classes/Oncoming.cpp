@@ -1,6 +1,7 @@
 #include "Oncoming.h"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "Enemy.h"
 #include "GameManager.h"
 #include "stdio.h"
 
@@ -47,6 +48,9 @@ bool Oncoming::init()
 	background2 = (Sprite*)rootNode->getChildByName("Background2");
 	
 	playerCar = new Player(rootNode);
+
+	enemies = Enemy::create(rootNode);
+	this->addChild(enemies);
 
 	auto touchListener = EventListenerTouchOneByOne::create();
 
@@ -111,6 +115,8 @@ void Oncoming::StartGame()
 	auto winSize = Director::getInstance()->getVisibleSize();
 
 	GameManager::sharedGameManager()->isGameLive = true;
+
+	enemies->reset();
 
 	auto moveTo = MoveTo::create(1.5, Vec2(-winSize.width*0.5f, winSize.height*0.5f)); // Take a second to move off screen.
 	startButton->runAction(moveTo);

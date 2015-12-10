@@ -5,6 +5,8 @@
 #include "ui/CocosGUI.h"
 #include "Player.h"
 
+class Enemy;
+
 class Oncoming : public cocos2d::Layer
 {
 public:
@@ -35,6 +37,7 @@ private:
 
 	// playerCar is an instance of the Player class
 	Player*					playerCar;
+	Enemy*					enemies;
 
 	cocos2d::ui::Button*    startButton;
 	float					speed;
