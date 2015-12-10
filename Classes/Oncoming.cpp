@@ -37,13 +37,12 @@ bool Oncoming::init()
     }
     
     auto rootNode = CSLoader::createNode("MainScene.csb");
-
     addChild(rootNode);
 
 	this->scheduleUpdate();
 
 	auto winSize = Director::getInstance()->getVisibleSize();
-
+	score = (Text*)rootNode->getChildByName("scoreLabel");
 	background1 = (Sprite*)rootNode->getChildByName("Background1");
 	background2 = (Sprite*)rootNode->getChildByName("Background2");
 	
@@ -89,7 +88,7 @@ void Oncoming::update(float deltaTime)
 		{
 			background2->setPosition(currentPos2.x, winSize.height*2);
 		}
-
+		score->setString(StringUtils::format("%d", GameManager::sharedGameManager()->GetScore()));
 		// Update the player
 		playerCar->Update(deltaTime);
 	}
@@ -115,6 +114,8 @@ void Oncoming::StartGame()
 	auto winSize = Director::getInstance()->getVisibleSize();
 
 	GameManager::sharedGameManager()->isGameLive = true;
+
+	GameManager::sharedGameManager()->ResetScore();
 
 	enemies->reset();
 

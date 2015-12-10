@@ -161,13 +161,34 @@
             <FileData Type="Normal" Path="enemy.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="startButton" ActionTag="-1986388068" Tag="6" IconVisible="False" LeftMargin="84.5995" RightMargin="75.4005" TopMargin="9.7396" BottomMargin="-9.7396" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="450" Scale9Height="938" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Image_1" ActionTag="2132214620" Tag="19" IconVisible="False" LeftMargin="20.2842" RightMargin="19.7158" TopMargin="13.4055" BottomMargin="876.5945" Scale9Width="600" Scale9Height="70" ctype="ImageViewObjectData">
+            <Size X="600.0000" Y="70.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="320.2842" Y="911.5945" />
+            <Scale ScaleX="1.1035" ScaleY="1.3862" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5004" Y="0.9496" />
+            <PreSize X="0.9375" Y="0.0729" />
+            <FileData Type="Normal" Path="ScoreLabel.png" Plist="" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="scoreLabel" ActionTag="309689206" Tag="20" IconVisible="False" LeftMargin="397.5128" RightMargin="229.4872" TopMargin="41.1035" BottomMargin="891.8965" FontSize="24" LabelText="0" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
+            <Size X="13.0000" Y="27.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="404.0128" Y="905.3965" />
+            <Scale ScaleX="4.8713" ScaleY="3.4257" />
+            <CColor A="255" R="0" G="0" B="0" />
+            <PrePosition X="0.6313" Y="0.9431" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="startButton" ActionTag="-1986388068" Tag="6" IconVisible="False" LeftMargin="-647.4162" RightMargin="807.4162" TopMargin="4.7552" BottomMargin="-4.7553" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="450" Scale9Height="938" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="480.0000" Y="960.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="324.5995" Y="470.2604" />
+            <Position X="-407.4162" Y="475.2447" />
             <Scale ScaleX="1.4622" ScaleY="1.0489" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5072" Y="0.4899" />
+            <PrePosition X="-0.6366" Y="0.4950" />
             <PreSize X="0.7500" Y="1.0000" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Normal" Path="OncomingSign.png" Plist="" />

@@ -34,7 +34,7 @@ public:
 private:
 	cocos2d::Sprite*        background1;
 	cocos2d::Sprite*        background2;
-
+	cocos2d::ui::Text*		score;
 	// playerCar is an instance of the Player class
 	Player*					playerCar;
 	Enemy*					enemies;

@@ -29,7 +29,7 @@ private:
 	float            startXPosition;
 	float            startYPosition;
 	float            currentSpeed;
-	Node*			rootNode;
+	Node*			 rootNode;
 };
 
 #endif

@@ -10,6 +10,7 @@
         <Project Name="Enemy.csd" Type="Node" />
         <Image Name="enemy.png" />
         <Image Name="OncomingSign.png" />
+        <Image Name="ScoreLabel.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>
