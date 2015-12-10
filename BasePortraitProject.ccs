@@ -1,5 +1,5 @@
 <Solution>
-  <PropertyGroup Name="BASEPO~1" Version="2.3.2.3" Type="CocosStudio" />
+  <PropertyGroup Name="BasePortraitProject" Version="2.3.2.3" Type="CocosStudio" />
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
@@ -9,6 +9,7 @@
         <Image Name="Car.png" />
         <Project Name="Enemy.csd" Type="Node" />
         <Image Name="enemy.png" />
+        <Image Name="OncomingSign.png" />
       </RootFolder>
     </Group>
   </SolutionFolder>

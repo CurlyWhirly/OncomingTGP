@@ -88,79 +88,64 @@
             <Size X="129.0000" Y="64.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="322.1440" Y="144.6771" />
-            <Scale ScaleX="1.2684" ScaleY="1.6524" />
+            <Scale ScaleX="1.0800" ScaleY="1.2700" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5034" Y="0.1507" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="Car.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="startButton" ActionTag="-1986388068" Tag="6" IconVisible="False" LeftMargin="293.6051" RightMargin="300.3949" TopMargin="424.6176" BottomMargin="499.3824" TouchEnable="True" FontSize="14" ButtonText="Start" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="46.0000" Y="36.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="316.6051" Y="517.3824" />
-            <Scale ScaleX="3.0199" ScaleY="4.3557" />
-            <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.4947" Y="0.5389" />
-            <PreSize X="0.0000" Y="0.0000" />
-            <TextColor A="255" R="65" G="65" B="70" />
-            <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
-            <NormalFileData Type="Default" Path="Default/Button_Normal.png" Plist="" />
-            <OutlineColor A="255" R="255" G="0" B="0" />
-            <ShadowColor A="255" R="110" G="110" B="110" />
-          </AbstractNodeData>
-          <AbstractNodeData Name="enemyCar2" ActionTag="1444549380" Tag="12" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="253.2200" RightMargin="-213.2200" TopMargin="62.8392" BottomMargin="600.1608" ctype="SpriteObjectData">
+          <AbstractNodeData Name="enemyCar2" ActionTag="1444549380" Tag="12" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="264.2006" RightMargin="-224.2006" TopMargin="14.0425" BottomMargin="648.9575" ctype="SpriteObjectData">
             <Size X="600.0000" Y="297.0000" />
             <AnchorPoint ScaleX="0.3970" ScaleY="0.5252" />
-            <Position X="491.4211" Y="756.1427" />
-            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <Position X="502.4006" Y="804.9420" />
+            <Scale ScaleX="0.2200" ScaleY="0.3000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.7678" Y="0.7876" />
+            <PrePosition X="0.7850" Y="0.8385" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="enemy.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="enemyCar1" ActionTag="-1006187122" Tag="13" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="-142.8612" RightMargin="182.8612" TopMargin="68.4006" BottomMargin="594.5994" ctype="SpriteObjectData">
+          <AbstractNodeData Name="enemyCar1" ActionTag="-1006187122" Tag="13" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="22.2053" RightMargin="17.7947" TopMargin="19.8265" BottomMargin="643.1735" ctype="SpriteObjectData">
             <Size X="600.0000" Y="297.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="157.1388" Y="743.0994" />
-            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <Position X="322.2053" Y="791.6735" />
+            <Scale ScaleX="0.2200" ScaleY="0.3000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.2455" Y="0.7741" />
+            <PrePosition X="0.5034" Y="0.8247" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="enemy.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="enemyCar4" ActionTag="-1665061476" Tag="14" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="27.2036" RightMargin="12.7964" TopMargin="-616.3459" BottomMargin="1279.3459" ctype="SpriteObjectData">
+          <AbstractNodeData Name="enemyCar4" ActionTag="-1665061476" Tag="14" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="21.6726" RightMargin="18.3274" TopMargin="-661.4368" BottomMargin="1324.4368" ctype="SpriteObjectData">
             <Size X="600.0000" Y="297.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="327.2036" Y="1427.8459" />
-            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <Position X="321.6726" Y="1472.9368" />
+            <Scale ScaleX="0.2200" ScaleY="0.3000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5113" Y="1.4873" />
+            <PrePosition X="0.5026" Y="1.5343" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="enemy.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="enemyCar3" ActionTag="-1565018313" Tag="15" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="191.2278" RightMargin="-151.2278" TopMargin="-611.4694" BottomMargin="1274.4694" ctype="SpriteObjectData">
+          <AbstractNodeData Name="enemyCar3" ActionTag="-1565018313" Tag="15" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="-147.0657" RightMargin="187.0657" TopMargin="-664.5625" BottomMargin="1327.5625" ctype="SpriteObjectData">
             <Size X="600.0000" Y="297.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="491.2278" Y="1422.9694" />
-            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <Position X="152.9343" Y="1476.0625" />
+            <Scale ScaleX="0.2200" ScaleY="0.3000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.7675" Y="1.4823" />
+            <PrePosition X="0.2390" Y="1.5376" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="enemy.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="enemyCar6" ActionTag="-1246118860" Tag="16" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="35.1443" RightMargin="4.8557" TopMargin="-1351.2559" BottomMargin="2014.2559" ctype="SpriteObjectData">
+          <AbstractNodeData Name="enemyCar6" ActionTag="-1246118860" Tag="16" RotationSkewX="90.0000" RotationSkewY="90.0000" IconVisible="False" LeftMargin="193.1580" RightMargin="-153.1580" TopMargin="-1355.4465" BottomMargin="2018.4465" ctype="SpriteObjectData">
             <Size X="600.0000" Y="297.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="335.1443" Y="2162.7559" />
-            <Scale ScaleX="0.2602" ScaleY="0.4022" />
+            <Position X="493.1580" Y="2166.9465" />
+            <Scale ScaleX="0.2200" ScaleY="0.3000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5237" Y="2.2529" />
+            <PrePosition X="0.7706" Y="2.2572" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="enemy.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
@@ -169,12 +154,27 @@
             <Size X="600.0000" Y="297.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="151.8430" Y="2164.8232" />
-            <Scale ScaleX="0.2935" ScaleY="0.4022" />
+            <Scale ScaleX="0.2200" ScaleY="0.3000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.2373" Y="2.2550" />
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="enemy.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="startButton" ActionTag="-1986388068" Tag="6" IconVisible="False" LeftMargin="84.5995" RightMargin="75.4005" TopMargin="9.7396" BottomMargin="-9.7396" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="450" Scale9Height="938" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="480.0000" Y="960.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="324.5995" Y="470.2604" />
+            <Scale ScaleX="1.4622" ScaleY="1.0489" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5072" Y="0.4899" />
+            <PreSize X="0.7500" Y="1.0000" />
+            <TextColor A="255" R="65" G="65" B="70" />
+            <DisabledFileData Type="Normal" Path="OncomingSign.png" Plist="" />
+            <PressedFileData Type="Normal" Path="OncomingSign.png" Plist="" />
+            <NormalFileData Type="Normal" Path="OncomingSign.png" Plist="" />
+            <OutlineColor A="255" R="255" G="0" B="0" />
+            <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
