@@ -12,6 +12,8 @@ public:
 	Player(Node*); // Constructor
 	~Player();     // Destructor
 
+	Rect getBoundingBox() const;;
+
 	void Update(float);
 
 	void btnLeftPressed  (Ref *sender, cocos2d::ui::Widget::TouchEventType type);

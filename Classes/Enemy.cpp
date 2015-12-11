@@ -157,12 +157,12 @@ bool Enemy::hasCollidedWithPlayer(Rect collisionBoxToCheck)
 
 
 	//Did the incoming Rect collide with either modified Rects?
-	if (modifiedEnemy1.intersectsRect(collisionBoxToCheck) || 
+ 	if (modifiedEnemy1.intersectsRect(collisionBoxToCheck) || 
 		modifiedEnemy2.intersectsRect(collisionBoxToCheck) ||
 		modifiedEnemy3.intersectsRect(collisionBoxToCheck) ||
 		modifiedEnemy4.intersectsRect(collisionBoxToCheck) || 
 		modifiedEnemy5.intersectsRect(collisionBoxToCheck) ||
-		modifiedEnemy6.intersectsRect(collisionBoxToCheck) )
+ 		modifiedEnemy6.intersectsRect(collisionBoxToCheck) )
 	{
 		return true;
 	}

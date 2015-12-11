@@ -24,6 +24,11 @@ Player::Player(Node* rootNode)
 	rightButton->addTouchEventListener(CC_CALLBACK_2(Player::btnRightPressed, this));
 }
 
+Rect Player::getBoundingBox() const
+{
+	return imgPlayer->getBoundingBox();
+}
+
 void Player::Update(float deltaTime)
 {
 
